@@ -36,3 +36,28 @@ Add card to your deck beware there no typo correction yet so if you mispell some
 
 `Cls`
 Clear the terminal
+
+## Examples
+So for example you want to add a Stoat into your deck you would write 'ac Stoat' in the terminal like this
+```
+Error: Unexpected data encounter
+Begin data wipe
+Type 'help' to see command list
+FLOPPY DRIVE Z:\SaveFile.gwsave> ac Stoat
+```
+If you do everything correctly it will display this:
+```
+Error: Unexpected data encounter
+Begin data wipe
+Type 'help' to see command list
+FLOPPY DRIVE Z:\SaveFile.gwsave> ac Stoat
+Card 'Stoat' added please reload your game by going to the title screen and continue
+Deck: ['Stinkbug_Talking', 'Bullfrog', 'Stoat_Talking', 'Stoat_Talking', 'Stoat_Talking', 'Stoat_Talking', 'Stoat_Talking', 'Stoat']
+Card in deck: 8
+FLOPPY DRIVE Z:\SaveFile.gwsave> 
+```
+Then you need to reload your game
+
+Like this:
+https://user-images.githubusercontent.com/89868169/147843326-c8ffdc5e-d010-4ff7-8dd2-18672580f687.mp4
+
