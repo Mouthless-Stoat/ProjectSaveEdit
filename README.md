@@ -6,21 +6,30 @@ You don't need to install much for this tool just install the folder of this rep
 Go use the tool there a OLD_DATA.txt file that go with the program to help you
 
 ## Ussage
-For now there only 8 command i will be adding more in future version:
+For now there only 11 command i will be adding more in future version:
 - help
 - fd
 - start
+- terr
+- tcorr
 - deck
 - card
 - ac
-- rmc (not done)
+- rmc
 - cls
+- quit
 
 `Help`
 show a list of command that you can use
 
 `Fd`
 Show you the game folder if you having some issue
+
+`Terr`
+Toggle error message. Error message being all red message (not recommended)
+
+`Tcorr`
+Toggle correction message. Correction message being all green message
 
 `Start`
 Start up Inscryption if you too lazy to open the game
@@ -32,10 +41,16 @@ Show your current deck and it size
 Show a list of card name that you can add to your deck using the "ac" command
 
 `Ac`
-Add card to your deck beware there no typo correction yet so if you mispell something it gonna be a problem
+Add card to your deck using save edit
+
+`Rmc`
+Remove card from your deck using save edit
 
 `Cls`
 Clear the terminal
+
+`Quit`
+close the tool
 
 ## Examples
 So for example you want to add a Stoat into your deck you would write 'ac Stoat' in the terminal like this
