@@ -1,0 +1,3 @@
+Please make a backup of your save file before using this tool because this tool can cause alot of issue if the save file get corrupted
+NOTE: ac commmand add whatever card you enter after calling the command so if you mispell something that will be a problem. I will try to update the too soon to solve this problem
+The cardName file is not mine it MADH95's
