@@ -1,1 +1,1 @@
-Please replace this text with your Inscryption folder location
+C:\Program Files (x86)\Steam\steamapps\common\Inscryption
