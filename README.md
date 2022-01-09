@@ -2,7 +2,7 @@
 A tool that give everyone (~~well almost everyone~~) ability to save edit Inscryption
 
 ## Insallation
-You don't need to install much for this tool just install the folder of this repository. Then just run main.py it should open the terminal and run the tool.
+You don't need to install much for this tool just install the folder of this repository. Then just run main.exe it should open the terminal and run the tool.
 Go use the tool there a OLD_DATA.txt file that go with the program to help you
 
 ## Ussage
