@@ -5,14 +5,10 @@ If you somehow get here and not know what Inscryption is, nothing here will make
 
 ## Some Important note
 
-***
-
 Save edit can be very buggy sometime so it may corrupt your save file so making backup is recommended.  
 And for some stupid reason save editing with kmod can be quite buggy. Some commands are lock when you are in kmod, some are still unlock because I haven't test all command in kmod so if you found a bug just tell me on discord (khanhFG#3753) or make an issue here on github.
 
 ## How to install
-
-***
 
 **I have only tested this on Window so I have no idea if it work for Mac or Linux.**
 
@@ -32,8 +28,6 @@ C:\Program Files (x86)\Steam\steamapps\common\Inscryption\SaveFile.gwsave
 After you done all that, then you are set now just run `main.exe` and start using the tool.
 
 ## Usage
-
-***
 
 Using this tool is quite easy you just input and run command. For a list of commands just input `help` and run it. It will print out a list of commands that look like this.
 ```
