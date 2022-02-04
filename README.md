@@ -1,78 +1,62 @@
 # Project Save Edit: save edit for everyone
-A tool that give everyone (~~well almost everyone~~) ability to save edit Inscryption
 
-## Insallation
-You don't need to install much for this tool just install the folder of this repository. Then just run main.exe it should open the terminal and run the tool.
-Go use the tool there a OLD_DATA.txt file that go with the program to help you
+Project Save Edit is a simple command line tool to help you with save editing for Inscryption by Daniel Mullins.  
+If you somehow get here and not know what Inscryption is, nothing here will make any sense.
 
-## Ussage
-For now there only 11 command i will be adding more in future version:
-- help
-- fd
-- start
-- terr
-- tcorr
-- deck
-- card
-- ac
-- rmc
-- cls
-- quit
+## Some Important note
 
-`Help`
-show a list of command that you can use
+***
 
-`Fd`
-Show you the game folder if you having some issue
+Save edit can be very buggy sometime so it may corrupt your save file so making backup is recommended.  
+And for some stupid reason save editing with kmod can be quite buggy. Some commands are lock when you are in kmod, some are still unlock because I haven't test all command in kmod so if you found a bug just tell me on discord (khanhFG#3753) or make an issue here on github.
 
-`Terr`
-Toggle error message. Error message being all red message (not recommended)
+## How to install
 
-`Tcorr`
-Toggle correction message. Correction message being all green message
+***
 
-`Start`
-Start up Inscryption if you too lazy to open the game
+**I have only tested this on Window so I have no idea if it work for Mac or Linux.**
 
-`Deck`
-Show your current deck and it size
+So let install this thing. First go to the lasted release and download `ProjectSaveEdit.zip`. After you downloaded it, now unzip it. In there you will find a text file call `path.txt` opening it you should see something like this.
 
-`Card [Page number]`
-Show a list of card name that you can add to your deck using the "ac" command
-
-`Ac`
-Add card to your deck using save edit
-
-`Rmc`
-Remove card from your deck using save edit
-
-`Cls`
-Clear the terminal
-
-`Quit`
-close the tool
-
-## Examples
-So for example you want to add a Stoat into your deck you would write 'ac Stoat' in the terminal like this
+```text
+Your save file directory here
 ```
-Error: Unexpected data encounter
-Begin data wipe
-Type 'help' to see command list
-FLOPPY DRIVE Z:\SaveFile.gwsave> ac Stoat
-```
-If you do everything correctly it will display this:
-```
-Error: Unexpected data encounter
-Begin data wipe
-Type 'help' to see command list
-FLOPPY DRIVE Z:\SaveFile.gwsave> ac Stoat
-Card 'Stoat' added please reload your game by going to the title screen and continue
-Deck: ['Stinkbug_Talking', 'Bullfrog', 'Stoat_Talking', 'Stoat_Talking', 'Stoat_Talking', 'Stoat_Talking', 'Stoat_Talking', 'Stoat']
-Card in deck: 8
-FLOPPY DRIVE Z:\SaveFile.gwsave> 
-```
-Then you need to reload your game
+**So now enter your Inscryption save file directory**. If you don't know where to get it here a quick guide.
 
-Like this:
-https://user-images.githubusercontent.com/89868169/147843326-c8ffdc5e-d010-4ff7-8dd2-18672580f687.mp4
+Open up steam go to the game in your library now click the little gear icon on the right of the game name, then click `Manage > Browse Local File`. It should open file explorer on your computer in there you will find all the game file. Ok now look in that folder find a file call `SaveFile.gwsave` that is your game save file. Now right-click it "Copy as path" then paste that into the `path.txt` file. Then remove the two little quote at the start and end of it.
 
+I should look something like this:
+```text
+C:\Program Files (x86)\Steam\steamapps\common\Inscryption\SaveFile.gwsave
+```
+After you done all that, then you are set now just run `main.exe` and start using the tool.
+
+## Usage
+
+***
+
+Using this tool is quite easy you just input and run command. For a list of commands just input `help` and run it. It will print out a list of commands that look like this.
+```
+******************** HELP FORMAT ********************
+[Command Name] [Command Alias]: [Command Description]
+*****************************************************
+
+- addCard ['ac']: [card name] add card to your deck using save edit
+- backup ['bkup']: Backup your save file
+- changeAct ['ca']: [act] change the current act that you save edit from (0: act 1, 1: act 2, etc.)
+- changeChallengeLevel ['ccl']: [New challenge level] Change Kaycee's mod challenge level. Will not affect other act
+```
+Let unpack what just happened. Firstly the `HELP FORMAT` should help you with how to read what it prints. Let analyze one of the command shall we.
+```
+- backup ['bkup']: Backup your save file
+```
+The command name is `backup` which mean you can input `backup` into the command line to run this command.   
+The command alias in this case `['bkup']` meaning you can also input `bkup` to run the command.  
+Finally, the command description `Backup your save file` is a short description about the command and what it do in this case "backup your save file".
+
+Let look at another one:
+```
+- changeChallengeLevel ['ccl']: [New challenge level] Change Kaycee's mod challenge level. Will not affect other act
+```
+Same as the other one `changeChallengeLevel` and `ccl` is it alias so you can input either of those to run the command. Now the description is a little bit different now it has that square bracket thing. So that mean it is the command argument. So here an example changing th challenge level to 5, I would enter `ccl 5`.  
+And that explain pretty much all the command in this tool. Some command can print a detail error message some just print `Error`. `Error` can be cause by typo or missing argument.

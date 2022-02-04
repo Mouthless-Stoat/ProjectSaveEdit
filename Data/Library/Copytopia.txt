@@ -1,0 +1,183 @@
+globalCardModA
+                        "$v": {
+                            "$id": 16,
+                            "$type": "13|System.Collections.Generic.List`1[[DiskCardGame.CardModificationInfo, Assembly-CSharp]], mscorlib",
+                            "$rlength": 0,
+                            "$rcontent": [
+                            ]
+                        }
+globalCardModB
+                    
+
+cardModA
+                        "$v": {
+                            "$id": 29,
+                            "$type": 14,
+                            "$rlength": 1,
+                            "$rcontent": [
+                                {
+                                    "$id": 30,
+                                    "$type": "15|DiskCardGame.CardModificationInfo, Assembly-CSharp",
+                                    "singletonId": null,
+                                    "nameReplacement": null,
+                                    "attackAdjustment": 0,
+                                    "healthAdjustment": 0,
+                                    "abilities": {
+                                        "$id": 31,
+                                        "$type": 7,
+                                        "$rlength": 0,
+                                        "$rcontent": [
+                                        ]
+                                    },
+                                    "negateAbilities": {
+                                        "$id": 32,
+                                        "$type": 7,
+                                        "$rlength": 0,
+                                        "$rcontent": [
+                                        ]
+                                    },
+                                    "bloodCostAdjustment": 0,
+                                    "bonesCostAdjustment": 0,
+                                    "energyCostAdjustment": 0,
+                                    "nullifyGemsCost": false,
+                                    "addGemCost": {
+                                        "$id": 33,
+                                        "$type": "16|System.Collections.Generic.List`1[[DiskCardGame.GemType, Assembly-CSharp]], mscorlib",
+                                        "$rlength": 0,
+                                        "$rcontent": [
+                                        ]
+                                    },
+                                    "gemify": false,
+                                    "specialAbilities": {
+                                        "$id": 34,
+                                        "$type": "17|System.Collections.Generic.List`1[[DiskCardGame.SpecialTriggeredAbility, Assembly-CSharp]], mscorlib",
+                                        "$rlength": 0,
+                                        "$rcontent": [
+                                        ]
+                                    },
+                                    "statIcon": 0,
+                                    "fromCardMerge": true,
+                                    "fromDuplicateMerge": false,
+                                    "fromTotem": false,
+                                    "fromLatch": false,
+                                    "fromOverclock": false,
+                                    "sideDeckMod": false,
+                                    "nonCopyable": false,
+                                    "transformerBeastCardId": null,
+                                    "deathCardInfo": null,
+                                    "bountyHunterInfo": null,
+                                    "buildACardPortraitInfo": null,
+                                    "decalIds": {
+                                        "$id": 35,
+                                        "$type": 9,
+                                        "$rlength": 0,
+                                        "$rcontent": [
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+cardModB
+
+KmodCardModA
+                            "$v": {
+                                "$id": 241,
+                                "$type": 13,
+                                "$rlength": 1,
+                                "$rcontent": [
+                                    {
+                                        "$id": 242,
+                                        "$type": 14,
+                                        "singletonId": null,
+                                        "nameReplacement": null,
+                                        "attackAdjustment": 0,
+                                        "healthAdjustment": 0,
+                                        "abilities": {
+                                            "$id": 243,
+                                            "$type": 6,
+                                            "$rlength": 1,
+                                            "$rcontent": [
+                                                23
+                                            ]
+                                        },
+                                        "negateAbilities": {
+                                            "$id": 244,
+                                            "$type": 6,
+                                            "$rlength": 0,
+                                            "$rcontent": [
+                                            ]
+                                        },
+                                        "bloodCostAdjustment": 0,
+                                        "bonesCostAdjustment": 0,
+                                        "energyCostAdjustment": 0,
+                                        "nullifyGemsCost": false,
+                                        "addGemCost": {
+                                            "$id": 245,
+                                            "$type": 15,
+                                            "$rlength": 0,
+                                            "$rcontent": [
+                                            ]
+                                        },
+                                        "gemify": false,
+                                        "specialAbilities": {
+                                            "$id": 246,
+                                            "$type": 16,
+                                            "$rlength": 0,
+                                            "$rcontent": [
+                                            ]
+                                        },
+                                        "statIcon": 0,
+                                        "fromCardMerge": false,
+                                        "fromDuplicateMerge": false,
+                                        "fromTotem": false,
+                                        "fromLatch": false,
+                                        "fromOverclock": false,
+                                        "sideDeckMod": false,
+                                        "nonCopyable": false,
+                                        "transformerBeastCardId": null,
+                                        "deathCardInfo": null,
+                                        "bountyHunterInfo": null,
+                                        "buildACardPortraitInfo": null,
+                                        "decalIds": {
+                                            "$id": 247,
+                                            "$type": 8,
+                                            "$rlength": 0,
+                                            "$rcontent": [
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+KmodCardModB
+
+totemA
+        "totems": {
+            "$id": 235,
+            "$type": 14,
+            "$rlength": 1,
+            "$rcontent": [
+                {
+                    "$id": 236,
+                    "$type": "53|DiskCardGame.TotemDefinition, Assembly-CSharp",
+                    "tribe": 1,
+                    "ability": 1
+                }
+            ]
+        },
+totemB
+
+kmodTotemA
+            "totems": {
+                "$id": 285,
+                "$type": 17,
+                "$rlength": 1,
+                "$rcontent": [
+                    {
+                        "$id": 286,
+                        "$type": "54|DiskCardGame.TotemDefinition, Assembly-CSharp",
+                        "tribe": 1,
+                        "ability": 1
+                    }
+                ]
+            },
+kmodTotemB
