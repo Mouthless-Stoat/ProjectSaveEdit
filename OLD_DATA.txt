@@ -1,9 +1,0 @@
-Please make a backup of your save file before using this tool because this tool can cause alot of issue and it can corrupt the save file
-How to use:
-First open the info.txt file and put in your Inscryption game folder directory
-Then open the tool by running main.exe
-Then enter help it should show you a list of command you can use
-Using the help command with another command name will show you what that commmand do
-for example running 'help ac' will return
-[cardName] Add card into your deck using save edit
-that mean it take in 1 argument 'cardName' and add that card in your deck using save edit
