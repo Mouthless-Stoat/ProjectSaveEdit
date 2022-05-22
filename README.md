@@ -1,4 +1,4 @@
-# Project Save Edit: save edit for everyone
+# Project Save Edit: Save Edit for Everyone
 
 Project Save Edit is a simple command line tool to help you with save editing for Inscryption by Daniel Mullins.  
 If you somehow get here and not know what Inscryption is, nothing here will make any sense.
